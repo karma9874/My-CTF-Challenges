@@ -3,10 +3,15 @@
 * [DarkCON-CTF]()
 
     * Web
-    	* [Capture_the_Meme](DarkCON-ctf/Web/Capture_the_Meme)
-    	* [DarkCON_Challs](DarkCON-ctf/Web/DarkCON_Challs)
-    	* [Meme_Stash](DarkCON-ctf/Web/Meme_Stash)
-    	* [WTF_PHP](DarkCON-ctf/Web/WTF_PHP)
+    	<details>
+		<summary>BambooCTF 2021</summary>
+		<p>
+		- [Capture_the_Meme](DarkCON-ctf/Web/Capture_the_Meme)
+		- [DarkCON_Challs](DarkCON-ctf/Web/DarkCON_Challs)
+		- [Meme_Stash](DarkCON-ctf/Web/Meme_Stash)
+    	- [WTF_PHP](DarkCON-ctf/Web/WTF_PHP)
+		</p>
+		</details>
     * Misc
     	* [Web+Crypto](DarkCON-ctf/Misc/Web+Crypto)
     * Reverse
