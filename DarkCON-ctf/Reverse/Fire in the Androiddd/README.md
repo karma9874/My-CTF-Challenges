@@ -1,0 +1,1 @@
+[Writeup](https://github.com/karma9874/CTF-Writeups/blob/master/DarkCON_CTF/Fire%20in%20the%20Androiddd/Fire_in_the_Androiddd.md)

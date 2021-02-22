@@ -1,0 +1,1 @@
+[Writeup](https://github.com/karma9874/CTF-Writeups/blob/master/DarkCON_CTF/ezpz/ezpz.md)
