@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta charset="utf8">
+    <title>SuitArt Business Card</title>
+    <style type="text/css">
+      .upper{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        font-size: 35px;        
+        text-align: center;
+        top: 5%; 
+         text-transform: uppercase;
+        font-family: Arial,sans-serif;
+        color: #fff;
+        width: 60%;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .lower{
+       position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        font-size: 35px;        
+        text-align: center;
+         text-transform: uppercase;
+        bottom: 10%; 
+        font-family: Arial,sans-serif;
+        color: #fff;
+        width: 60%;
+        -webkit-text-stroke: 1px white;
+    }
+.testing{
+  width:500px;
+  height: 500px;
+  position: relative;
+  display: inline-block;
+}
+    </style>
+ 
+  </head>
+  <body>
+
+    <div class="testing">
+      
+  <img src="{{image}}" style="width: 500px;height: 500px" alt="meme was supposed to be here but idk what happened" >
+  <span class="upper">{{upper}}</span>
+   <span class="lower">{{lower}}</span>
+   </div>
+
+  </body>
+</html>

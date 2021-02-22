@@ -1,0 +1,17 @@
+version: "3.2"
+services:
+  nodejs:
+    build: 
+      context: .
+    image: graphql_app
+    ports:
+      - "9999:9999"
+    container_name: graphql_app
+  mysql:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=scammer@123
+      - MYSQL_DATABASE=darkcon
+    container_name: graphql_mysql
+
+

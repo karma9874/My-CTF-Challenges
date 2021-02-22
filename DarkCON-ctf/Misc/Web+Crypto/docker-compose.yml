@@ -1,0 +1,16 @@
+version: "3.2"
+services:
+  mysql:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=scammer@123
+      - MYSQL_DATABASE=scam
+    container_name: wc_mysql
+  nodejs:
+    build: 
+      context: .
+    image: wc_app
+    ports:
+      - "80:9999"
+    container_name: wc_app
+  
