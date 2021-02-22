@@ -1,6 +1,6 @@
 # My-CTF-Challenges
 
-* [DarkCON-CTF](#oShell)
+* [DarkCON-CTF]()
 
     * Web
     	* [Capture_the_Meme](DarkCON-ctf/Web/Capture_the_Meme)
