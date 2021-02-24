@@ -1,0 +1,1 @@
+*/2 * * * * rm /app/uploads/*

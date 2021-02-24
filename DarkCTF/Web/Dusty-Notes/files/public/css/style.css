@@ -1,0 +1,26 @@
+.input,
+.submit {
+  
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 0;
+   resize: vertical;
+  -webkit-appearance: none;
+}
+
+.input {
+  overflow: auto;
+  resize: vertical;
+}
+
+.submit {
+  margin: 10px;
+  background-color: lightgreen;
+  border: 1px solid transparent;
+}
+
+.submit::-moz-focus-inner {
+  border: 0;
+}
+

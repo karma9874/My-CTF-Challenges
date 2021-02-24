@@ -31,3 +31,28 @@
 
 	</p>
 	</details>
+
+* [DarkCTF](#)
+	<details>
+	<summary>Web</summary>
+	<p>
+
+	- [Dusty-Notes](DarkCTF/Web/Dusty-Notes)
+	- [File-Reader](DarkCTF/Web/File-Reader)
+
+	</p>
+	</details>
+
+* [PreCTF-DarkArmy](#)
+	<details>
+	<summary>Web</summary>
+	<p>
+
+	- [Mr_Robot](PreCTF-DarkArmy/Web/Mr_Robot)
+	- [Web-1](PreCTF-DarkArmy/Web/Web-1)
+	- [Web-2](PreCTF-DarkArmy/Web/Web-2)
+	- [Web-3](PreCTF-DarkArmy/Web/Web-3)
+	- [Web-4](PreCTF-DarkArmy/Web/Web-4)
+
+	</p>
+	</details>
