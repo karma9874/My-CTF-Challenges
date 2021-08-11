@@ -1,0 +1,174 @@
+* { box-sizing: border-box; }
+*:focus { outline: none; }
+
+body {
+  margin: 0;
+  color: #fff;
+  font-family: 'Lucida Sans Unicode', Lato, Arial, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  background-color: #80f;
+  font-size: 1.4em;
+  letter-spacing: 0.8em;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0px 0px 8px #222;
+  z-index: 1;
+}
+
+.content {
+  position: fixed;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #303038;
+}
+
+.section {
+  display: block;
+  vertical-align: middle;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section--decoded {
+  position: absolute;
+  left: 0;
+  width: 40%;
+}
+
+.section--options {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.section--encoded {
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+
+.section__title {
+  display: inline-block;
+  margin-top: 32px;
+  margin-left: 50%;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #0f8;
+  font-size: 1.2em;
+  font-weight: lighter;
+  letter-spacing: 0.4em;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.section__textarea {
+  margin-left: 10%;
+  width: 80%;
+  height: 65%;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  font-family: 'Lucida Sans Unicode', Lato, Arial, sans-serif;
+  font-size: 1em;
+  color: #fff;
+  letter-spacing: 0.2em;
+  resize: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.section__btn {
+  /*margin: 16px 0;*/
+  padding: 8px 24px;
+  background: transparent;
+  border: 1px solid #80f;
+  color: #fff;
+  font-family: 'Lucida Sans Unicode', Lato, Arial, sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+}
+
+
+
+.section__ipt {
+  padding-left: 8px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #0f8;
+  border-radius: 0;
+  color: #fff;
+  font-family: 'Lucida Sans Unicode', Lato, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.section__arrow {
+  color: #0f8;
+  letter-spacing: 0;
+}
+
+.btn--edit{
+  width: 39%;
+  margin-top: 5px;
+  margin-right: 10%;
+  float: right;
+}
+
+.btn--review{
+  margin-top: 5px;
+  width: 39%;
+  margin-left: 10%;
+}
+
+.btn--save{
+  margin-top: 5px;
+  width: 39%;
+  margin-left: 1%;
+  /*float: right;*/
+}
+
+
+.btn--share{
+  margin-top: 5px;
+  margin-left: 10%;
+  width: 80%;
+}
+
+
+.success {
+  background-color: #B9FFAB;
+  border-color: #116400;
+  color: #116400;
+}
+
+
+.box {
+  width: 400px;
+  height: 20px;
+  border: 2px solid #000;
+  margin: 0 auto 15px;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}

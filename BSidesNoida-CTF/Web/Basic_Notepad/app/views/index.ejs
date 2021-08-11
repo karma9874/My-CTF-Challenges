@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Secrets</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class='container'>
+  <div class='content'>
+    <div class='section section--decoded'>
+      <div class='section__title'>Basic Notepad</div>
+      <% if(data){ %>
+        <div class="section__textarea txt--input" name="msg">
+          <%- data %>
+        </div>
+      <form action="/share" method="POST" style="height: 100%;">
+        <input type="hidden" name="msg" value="<%= data %>">
+        <input type="hidden" name="token" value="<%= bytes %>">
+        <button type="submit" id="submit" class='section__btn btn--share'>Share with admin</button>
+      </form>
+      <% }%>  
+      
+
+      <% if(ad){ %>
+      <textarea disabled class='section__textarea txt--input' name="msg" id="secrets"><%= edit %></textarea>
+      <% }else{ %> 
+        <% if(edit){ %>
+        <form action="/review" method="POST" style="height: 100%;">
+          <textarea class='section__textarea txt--input' name="msg" id="secrets"><%= edit %></textarea>
+          <button type="submit" formaction="/review" formmethod="POST" class='section__btn btn--share'>Review</button>
+        </form>
+      <% } %> 
+      <% } %>  
+      
+      <% if(status){ %>
+          <%- status %>
+      <% }%> 
+
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Notepad</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'>
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<%if (msg) { %>
+
+<%if (msg == 101) { %>
+<script>alert("Incorrect Username or Password")</script>
+<% } %>
+
+<%if (msg == 102) { %>
+<script>alert("Username already exists")</script>
+<% } %>
+
+<% } %>
+
+          
+
+<div class="login-form">
+  <form >
+    <h1>Login</h1>
+    <div class="content">
+      <div class="input-field">
+        <input type="text" placeholder="username" name="user" id="user" autocomplete="nope">
+      </div>
+      <div class="input-field">
+        <input id="pass" type="password" placeholder="Password" name="pass" autocomplete="new-password">
+      </div>
+    </div>
+    <div class="action">
+      <button type="submit" formaction="/register" formmethod="POST">Register</button>
+      <button type="submit" id="submit" formaction="/login" formmethod="POST">Sign in</button>
+    </div>
+  </form>
+</div>
+<body>
+</html>

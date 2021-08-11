@@ -56,3 +56,14 @@
 
 	</p>
 	</details>
+
+* [BSidesNoida-CTF](#)
+	<details>
+	<summary>Web</summary>
+	<p>
+
+	- [Baby_Web](BSidesNoida-CTF/Web/Baby_Web)
+	- [Basic_Notepad](BSidesNoida-CTF/Web/Basic_Notepad)
+
+	</p>
+	</details>
